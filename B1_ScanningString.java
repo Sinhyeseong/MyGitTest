@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class B1_ScanningString {
 
 	public static void main(String[] args) {
-		String source = "È« ±æ µ¿";
-		// ½ºÆ®¸µ µ¥ÀÌÅÍ ÀĞ±â
+		String source = "í™ ê¸¸ ë™";
+		// ìŠ¤íŠ¸ë§ ë°ì´í„° ì½ê¸° 2
 		Scanner sc = new Scanner(source);
 		
 		int num1 =sc.next();
@@ -19,5 +19,5 @@ public class B1_ScanningString {
 	}
 
 }
-//Scanner Å¬·¡½º
+//Scanner í´ë˜ìŠ¤
 //Scanner(File source), Scanner(String source), Scanner(InputStream source)
