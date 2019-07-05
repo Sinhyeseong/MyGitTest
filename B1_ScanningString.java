@@ -1,10 +1,10 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class B1_ScanningString {
 
 	public static void main(String[] args) {
-		String source = "1 3 5 7 9";
-		// ½ºÆ®¸µ µ¥ÀÌÅÍ ÀĞ±â
+		String source = "1 3 5 7 9 12";
+		// ìŠ¤íŠ¸ë§ ë°ì´í„° ì½ê¸°
 		Scanner sc = new Scanner(source);
 		
 		int num1 =sc.nextInt();
@@ -19,5 +19,5 @@ public class B1_ScanningString {
 	}
 
 }
-//Scanner Å¬·¡½º
+//Scanner í´ë˜ìŠ¤
 //Scanner(File source), Scanner(String source), Scanner(InputStream source)
